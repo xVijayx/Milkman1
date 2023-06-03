@@ -11,8 +11,13 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Helo World!'),
+        body: Column(
+          children: [
+            Text("Exact this type"),
+            Center(
+              child: Text('Helo World!'),
+            ),
+          ],
         ),
       ),
     );
